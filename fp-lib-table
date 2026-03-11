@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "4in1ESC-30x30")(type "KiCad")(uri "${KIPRJMOD}/4in1ESC-30x30.pretty")(options "")(descr ""))
+)

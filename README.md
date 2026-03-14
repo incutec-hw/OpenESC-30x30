@@ -1,5 +1,7 @@
 # Open 4-in-1 AM32 ESC — 30x30
 
+![Front](images/front.png) ![Back](images/back.png)
+
 30x30mm mounting pattern variant of the [Open 4-in-1 AM32 ESC](https://github.com/Just4Stan/Open-4in1-AM32-ESC). Designed for higher current handling with more copper area and upgraded components. Runs [AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) firmware, works with Betaflight over DShot. Designed in KiCad 9.
 
 ## Specs

@@ -60,11 +60,9 @@ components.kicad_sym          Custom symbols
 ## Status
 
 - [x] Import SP40N01GHNK symbol and footprint
-- [x] Switch gate driver to NSG2065Q (FD6288Q-compatible, shared with 20x20 variant)
-- [ ] Update schematic for NSG2065Q pinout
-- [ ] PCB layout (30x30mm, 4-layer)
+- [x] PCB layout (30x30mm, 6-layer)
+- [ ] Order from JLCPCB
 - [ ] Thermal analysis
-- [ ] JLCPCB fabrication files
 
 ## License
 

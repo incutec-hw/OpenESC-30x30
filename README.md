@@ -1,6 +1,6 @@
 # Open 4-in-1 AM32 ESC — 30x30
 
-30x30mm mounting pattern variant of the [Open 4-in-1 AM32 ESC](https://github.com/Just4Stan/Open-4in1-AM32-ESC). Designed for higher current handling with more copper area and upgraded components. Runs [AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) firmware, works with Betaflight over DShot. Designed in KiCad 9, ready to order from JLCPCB.
+30x30mm mounting pattern variant of the [Open 4-in-1 AM32 ESC](https://github.com/Just4Stan/Open-4in1-AM32-ESC). Designed for higher current handling with more copper area and upgraded components. Runs [AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) firmware, works with Betaflight over DShot. Designed in KiCad 9.
 
 ## Specs
 
@@ -9,14 +9,14 @@
 | Firmware | AM32 |
 | Input voltage | 3-6S LiPo (11.1-25.2V) |
 | MCU | AT32F421G8U7 (ARM Cortex-M4, 120MHz) |
-| Gate driver | **NSG2065Q** (3-phase, FD6288Q-compatible, C41414478) |
-| MOSFETs | **SP40N01GHNK** (C22385416) — N-CH 40V 120A PDFN-8L(5x6) |
-| Current sensing | INA186A3IDCKR (C2058245) + 0.2mOhm shunt |
+| Gate driver | **NSG2065Q** (3-phase, FD6288Q-compatible) |
+| MOSFETs | **SP40N01GHNK** N-CH 40V 120A PDFN-8L(5x6) |
+| Current sensing | INA186A3IDCKR + 0.2mOhm shunt |
 | Protocol | DShot (Betaflight compatible) |
-| Power supply | LMR51420XDDCR buck (C5246146) + TLV76733DRVR LDO (C2848334) |
-| Connector | JST SM08B-SRSS-TB (C160407) — Betaflight 8-pin standard |
-| Ferrite bead | BLM03PX121SN1D (C525479) 120R 0201 |
-| PCB | **4-layer, 30x30mm**, designed for JLCPCB PCBA |
+| Power supply | LMR51420XDDCR buck + TLV76733DRVR LDO |
+| Connector | JST SM08B-SRSS-TB — Betaflight 8-pin standard |
+| Ferrite bead | BLM03PX121SN1D 120R 0201 |
+| PCB | **6-layer, 30x30mm** mounting pattern, designed for JLCPCB PCBA |
 
 ## Hardware Changes vs 20x20 Variant
 

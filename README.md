@@ -9,7 +9,7 @@
 | Firmware | AM32 |
 | Input voltage | 3-6S LiPo (11.1-25.2V) |
 | MCU | AT32F421G8U7 (ARM Cortex-M4, 120MHz) |
-| Gate driver | **NSG20652Q** (3-phase, C41414479) |
+| Gate driver | **NSG2065Q** (3-phase, FD6288Q-compatible, C41414478) |
 | MOSFETs | **SP40N01GHNK** (C22385416) — N-CH 40V 120A PDFN-8L(5x6) |
 | Current sensing | INA186A3IDCKR (C2058245) + 0.2mOhm shunt |
 | Protocol | DShot (Betaflight compatible) |
@@ -22,7 +22,7 @@
 
 | Component | 20x20 | 30x30 | Notes |
 |-----------|-------|-------|-------|
-| **Gate Driver** | NSG2065Q (C41414478) | **NSG20652Q (C41414479)** | Different pinout — NOT pin-compatible. Adds SD pin. |
+| **Gate Driver** | NSG2065Q (C41414478) | Same | FD6288Q-compatible — 7+ drop-in alternatives, 27k+ combined stock |
 | **MOSFETs** | SP40N03GNJ (C22466709) | **SP40N01GHNK** (C22385416) | 40V 120A PDFN-8L(5x6), up from 75A PDFN-8L(3x3) |
 | **Board Size** | 20x20mm, 6-layer | **30x30mm, 4-layer** | More copper area for thermals |
 | **Buck Converter** | LMR51420XDDCR (C5246146) | Same | |
@@ -31,12 +31,21 @@
 | **Connector** | JST SM08B-SRSS-TB (C160407) | Same | Betaflight 8-pin standard |
 | **Ferrite Bead** | BLM03PX121SN1D (C525479) | Same | 120R 0201 |
 
-## Key Notes — NSG20652Q vs NSG2065Q
+## Alternative Gate Drivers
 
-- Completely different pinout (only 3 of 24 pins match) — needs full PCB layout from scratch
-- Adds SD (shutdown) pin on pin 8
-- Slightly different gate drive: 1A/1.4A source/sink vs 1.5A/1.2A
-- VCC min is 5V (vs 8V for NSG2065Q)
+The NSG2065Q uses the FD6288Q pinout (QFN-24 4×4mm). These are drop-in replacements with zero PCB changes:
+
+| Part | Manufacturer | LCSC | Stock | Price |
+|------|-------------|------|-------|-------|
+| NSG2065Q | Novosense | C41414478 | ~225 | $0.44 |
+| 6288Q-MNS | Minos | C49424413 | 9,890 | $0.30 |
+| SD6288Q | JSMSEMI | C44606223 | 5,045 | $0.31 |
+| EG2124 | EG Micro | C2856308 | 3,821 | $0.23 |
+| HL6288Q | HL | C50331902 | 3,272 | $0.19 |
+| YC6288Q | YLPTEC | C54157432 | 2,946 | $0.42 |
+| JSM6288Q | JSMSEMI | C19077370 | 1,989 | $0.46 |
+
+See the [20x20 variant ALTERNATIVES.md](https://github.com/Just4Stan/Open-4in1-AM32-ESC) for full pinout table and detailed compatibility notes.
 
 ## Project Structure
 
@@ -50,9 +59,9 @@ components.kicad_sym          Custom symbols
 
 ## Status
 
-- [x] Import NSG20652Q symbol and footprint
 - [x] Import SP40N01GHNK symbol and footprint
-- [ ] Update schematic for NSG20652Q pinout (SD pin, different pin mapping)
+- [x] Switch gate driver to NSG2065Q (FD6288Q-compatible, shared with 20x20 variant)
+- [ ] Update schematic for NSG2065Q pinout
 - [ ] PCB layout (30x30mm, 4-layer)
 - [ ] Thermal analysis
 - [ ] JLCPCB fabrication files

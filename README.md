@@ -1,8 +1,6 @@
 # Open 4-in-1 AM32 ESC — 30x30
 
-![Front](images/front.png) ![Back](images/back.png)
-
-30x30mm mounting pattern variant of the [Open 4-in-1 AM32 ESC](https://github.com/Just4Stan/Open-4in1-AM32-ESC). Designed for higher current handling with more copper area and upgraded components. Runs [AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) firmware, works with Betaflight over DShot. Designed in KiCad 9, ready to order from JLCPCB.
+30x30mm mounting pattern variant of the [Open 4-in-1 AM32 ESC](https://github.com/Just4Stan/Open-4in1-AM32-ESC). Designed for higher current handling with more copper area and upgraded components. Runs [AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) firmware, works with Betaflight over DShot. Designed in KiCad 9.
 
 ## Specs
 
@@ -11,14 +9,14 @@
 | Firmware | AM32 |
 | Input voltage | 3-6S LiPo (11.1-25.2V) |
 | MCU | AT32F421G8U7 (ARM Cortex-M4, 120MHz) |
-| Gate driver | **NSG2065Q** (3-phase, FD6288Q-compatible, C41414478) |
-| MOSFETs | **SP40N01GHNK** (C22385416) — N-CH 40V 120A PDFN-8L(5x6) |
-| Current sensing | INA186A3IDCKR (C2058245) + 0.2mOhm shunt |
+| Gate driver | **NSG2065Q** (3-phase, FD6288Q-compatible) |
+| MOSFETs | **SP40N01GHNK** N-CH 40V 120A PDFN-8L(5x6) |
+| Current sensing | INA186A3IDCKR + 0.2mOhm shunt |
 | Protocol | DShot (Betaflight compatible) |
-| Power supply | LMR51420XDDCR buck (C5246146) + TLV76733DRVR LDO (C2848334) |
-| Connector | JST SM08B-SRSS-TB (C160407) — Betaflight 8-pin standard |
-| Ferrite bead | BLM03PX121SN1D (C525479) 120R 0201 |
-| PCB | **4-layer, 30x30mm**, designed for JLCPCB PCBA |
+| Power supply | LMR51420XDDCR buck + TLV76733DRVR LDO |
+| Connector | JST SM08B-SRSS-TB — Betaflight 8-pin standard |
+| Ferrite bead | BLM03PX121SN1D 120R 0201 |
+| PCB | **6-layer, 30x30mm** mounting pattern, designed for JLCPCB PCBA |
 
 ## Hardware Changes vs 20x20 Variant
 
@@ -26,7 +24,7 @@
 |-----------|-------|-------|-------|
 | **Gate Driver** | NSG2065Q (C41414478) | Same | FD6288Q-compatible — 7+ drop-in alternatives, 27k+ combined stock |
 | **MOSFETs** | SP40N03GNJ (C22466709) | **SP40N01GHNK** (C22385416) | 40V 120A PDFN-8L(5x6), up from 75A PDFN-8L(3x3) |
-| **Board Size** | 20x20mm, 6-layer | **30x30mm, 4-layer** | More copper area for thermals |
+| **Mounting Pattern** | 20x20mm, 6-layer | **30x30mm, 6-layer** | More copper area for thermals |
 | **Buck Converter** | LMR51420XDDCR (C5246146) | Same | |
 | **LDO** | TLV76733DRVR (C2848334) | Same | 3.3V |
 | **Current Sense** | INA186A3IDCKR (C2058245) | Same | SC-70-6, 100V/V |
@@ -62,11 +60,9 @@ components.kicad_sym          Custom symbols
 ## Status
 
 - [x] Import SP40N01GHNK symbol and footprint
-- [x] Switch gate driver to NSG2065Q (FD6288Q-compatible, shared with 20x20 variant)
-- [ ] Update schematic for NSG2065Q pinout
-- [ ] PCB layout (30x30mm, 4-layer)
+- [x] PCB layout (30x30mm, 6-layer)
+- [ ] Order from JLCPCB
 - [ ] Thermal analysis
-- [ ] JLCPCB fabrication files
 
 ## License
 

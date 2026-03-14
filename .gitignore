@@ -1,2 +1,41 @@
+# KiCad backup and autosave files
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*~
+\#auto_saved_files#
+
+# KiCad lock files
+~*.lck
+
+# KiCad autosave files
+_autosave-*
+
+# KiCad cache files
+fp-info-cache
+
+# KiCad local settings (user-specific)
 *.kicad_prl
-4in1ESC-30x30-backups/
+
+# OS files
+.DS_Store
+
+# Zip archives / old saves
+*.zip
+!production/*.zip
+
+# Fabrication toolkit temp
+fabrication-toolkit-options.json
+
+# Net file (generated)
+*.net
+
+# Replicate layout log
+replicate_layout.log
+
+# Component backup
+*.bak
+
+# Claude config
+.claude/
+CLAUDE.md

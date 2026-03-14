@@ -1,6 +1,6 @@
 # Open 4-in-1 AM32 ESC — 30x30
 
-30x30mm mounting pattern variant of the [Open 4-in-1 AM32 ESC](https://github.com/stan-so/4in1ESC). Designed for higher current handling with more copper area and upgraded components. Runs [AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) firmware, works with Betaflight over DShot. Designed in KiCad 9, ready to order from JLCPCB.
+30x30mm mounting pattern variant of the [Open 4-in-1 AM32 ESC](https://github.com/Just4Stan/Open-4in1-AM32-ESC). Designed for higher current handling with more copper area and upgraded components. Runs [AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) firmware, works with Betaflight over DShot. Designed in KiCad 9, ready to order from JLCPCB.
 
 ## Specs
 
@@ -10,7 +10,7 @@
 | Input voltage | 3-6S LiPo (11.1-25.2V) |
 | MCU | AT32F421G8U7 (ARM Cortex-M4, 120MHz) |
 | Gate driver | **NSG20652Q** (3-phase, C41414479) |
-| MOSFETs | **SP40N01GHNK** (TBD — evaluate for higher current) |
+| MOSFETs | **SP40N01GHNK** (C22385416) — N-CH 40V 120A PDFN-8L(5x6) |
 | Current sensing | INA186A3IDCKR (C2058245) + 0.2mOhm shunt |
 | Protocol | DShot (Betaflight compatible) |
 | Power supply | LMR51420XDDCR buck (C5246146) + TLV76733DRVR LDO (C2848334) |
@@ -23,7 +23,7 @@
 | Component | 20x20 | 30x30 | Notes |
 |-----------|-------|-------|-------|
 | **Gate Driver** | NSG2065Q (C41414478) | **NSG20652Q (C41414479)** | Different pinout — NOT pin-compatible. Adds SD pin. |
-| **MOSFETs** | SP40N03GNJ (C22466709) | **SP40N01GHNK** (TBD) | Evaluate for higher current |
+| **MOSFETs** | SP40N03GNJ (C22466709) | **SP40N01GHNK** (C22385416) | 40V 120A PDFN-8L(5x6), up from 75A PDFN-8L(3x3) |
 | **Board Size** | 20x20mm, 6-layer | **30x30mm, 4-layer** | More copper area for thermals |
 | **Buck Converter** | LMR51420XDDCR (C5246146) | Same | |
 | **LDO** | TLV76733DRVR (C2848334) | Same | 3.3V |
@@ -50,8 +50,8 @@ components.kicad_sym          Custom symbols
 
 ## Status
 
-- [ ] Import NSG20652Q symbol and footprint
-- [ ] Import SP40N01GHNK symbol and footprint
+- [x] Import NSG20652Q symbol and footprint
+- [x] Import SP40N01GHNK symbol and footprint
 - [ ] Update schematic for NSG20652Q pinout (SD pin, different pin mapping)
 - [ ] PCB layout (30x30mm, 4-layer)
 - [ ] Thermal analysis

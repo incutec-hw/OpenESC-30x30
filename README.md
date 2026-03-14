@@ -24,7 +24,7 @@
 |-----------|-------|-------|-------|
 | **Gate Driver** | NSG2065Q (C41414478) | Same | FD6288Q-compatible — 7+ drop-in alternatives, 27k+ combined stock |
 | **MOSFETs** | SP40N03GNJ (C22466709) | **SP40N01GHNK** (C22385416) | 40V 120A PDFN-8L(5x6), up from 75A PDFN-8L(3x3) |
-| **Board Size** | 20x20mm, 6-layer | **30x30mm, 4-layer** | More copper area for thermals |
+| **Mounting Pattern** | 20x20mm, 6-layer | **30x30mm, 6-layer** | More copper area for thermals |
 | **Buck Converter** | LMR51420XDDCR (C5246146) | Same | |
 | **LDO** | TLV76733DRVR (C2848334) | Same | 3.3V |
 | **Current Sense** | INA186A3IDCKR (C2058245) | Same | SC-70-6, 100V/V |

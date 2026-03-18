@@ -410,7 +410,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -623,7 +623,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -836,7 +836,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1047,7 +1047,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C908802"
+		(property "LCSC Part" "C315992"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1220,7 +1220,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1433,7 +1433,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1646,7 +1646,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2213,7 +2213,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2426,7 +2426,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2639,7 +2639,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2852,7 +2852,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3401,7 +3401,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4286,7 +4286,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4499,7 +4499,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4712,7 +4712,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5261,7 +5261,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5474,7 +5474,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5687,7 +5687,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5900,7 +5900,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6113,7 +6113,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6326,7 +6326,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6539,7 +6539,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6752,7 +6752,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7306,7 +7306,7 @@
 		(path "/b0c42f3f-9960-4f66-a675-e633d015de03")
 		(sheetname "/")
 		(sheetfile "4in1ESC-30x30.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -19.939669 -11.122239)
 			(end -19.903826 -11.086396)
@@ -9999,7 +9999,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10212,7 +10212,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10425,7 +10425,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10638,7 +10638,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10851,7 +10851,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11064,7 +11064,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11277,7 +11277,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11490,7 +11490,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12039,7 +12039,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12252,7 +12252,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12465,7 +12465,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12678,7 +12678,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13227,7 +13227,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13440,7 +13440,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13653,7 +13653,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13866,7 +13866,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14079,7 +14079,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14292,7 +14292,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14505,7 +14505,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14718,7 +14718,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14931,7 +14931,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15144,7 +15144,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15357,7 +15357,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15570,7 +15570,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15783,7 +15783,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16209,7 +16209,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16422,7 +16422,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16635,7 +16635,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16848,7 +16848,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17061,7 +17061,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17274,7 +17274,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17487,7 +17487,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17700,7 +17700,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18249,7 +18249,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18462,7 +18462,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18675,7 +18675,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18888,7 +18888,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19101,7 +19101,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19314,7 +19314,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19863,7 +19863,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C440198"
+		(property "LCSC" "C13585"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20474,7 +20474,7 @@
 		(path "/3fa70197-fd52-4922-8368-62c7feb267b9/f00611af-956f-4432-8234-bac8d0476ced")
 		(sheetname "/ESC2/")
 		(sheetfile "ESC.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -21782,7 +21782,7 @@
 		(path "/f870c78f-43b6-4f66-afe4-21d85c4907b1/16ecf559-69f0-4983-8452-63808a379217")
 		(sheetname "/ESC1/")
 		(sheetfile "ESC.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -22079,7 +22079,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473048"
+		(property "LCSC" "C106225"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25321,7 +25321,7 @@
 		(path "/f870c78f-43b6-4f66-afe4-21d85c4907b1/f00611af-956f-4432-8234-bac8d0476ced")
 		(sheetname "/ESC1/")
 		(sheetfile "ESC.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -28488,7 +28488,7 @@
 		(path "/6061fcc0-8b26-44e0-b078-a202b47fdd16/16ecf559-69f0-4983-8452-63808a379217")
 		(sheetname "/ESC3/")
 		(sheetfile "ESC.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -29592,7 +29592,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473535"
+		(property "LCSC" "C226468"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31381,7 +31381,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473048"
+		(property "LCSC" "C106225"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32845,7 +32845,7 @@
 		(path "/0f1ac7ef-71be-4cf4-81ac-90268323e1b3/16ecf559-69f0-4983-8452-63808a379217")
 		(sheetname "/ESC4/")
 		(sheetfile "ESC.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -36059,7 +36059,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473535"
+		(property "LCSC" "C226468"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36473,7 +36473,7 @@
 		(path "/3fa70197-fd52-4922-8368-62c7feb267b9/16ecf559-69f0-4983-8452-63808a379217")
 		(sheetname "/ESC2/")
 		(sheetfile "ESC.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -36576,7 +36576,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C525479"
+		(property "LCSC" "C440127"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37131,7 +37131,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C525479"
+		(property "LCSC" "C440127"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37344,7 +37344,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473535"
+		(property "LCSC" "C226468"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37558,7 +37558,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473048"
+		(property "LCSC" "C106225"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37752,7 +37752,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473048"
+		(property "LCSC" "C106225"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38288,7 +38288,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C525479"
+		(property "LCSC" "C440127"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38501,7 +38501,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473048"
+		(property "LCSC" "C106225"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40236,7 +40236,7 @@
 		(path "/0f1ac7ef-71be-4cf4-81ac-90268323e1b3/f00611af-956f-4432-8234-bac8d0476ced")
 		(sheetname "/ESC4/")
 		(sheetfile "ESC.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -40339,7 +40339,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473048"
+		(property "LCSC" "C106225"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -44834,7 +44834,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473535"
+		(property "LCSC" "C226468"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46837,7 +46837,7 @@
 		(path "/6061fcc0-8b26-44e0-b078-a202b47fdd16/f00611af-956f-4432-8234-bac8d0476ced")
 		(sheetname "/ESC3/")
 		(sheetfile "ESC.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -47134,7 +47134,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473048"
+		(property "LCSC" "C106225"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47328,7 +47328,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C525479"
+		(property "LCSC" "C440127"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49041,7 +49041,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473048"
+		(property "LCSC" "C106225"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50355,7 +50355,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C473048"
+		(property "LCSC" "C106225"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

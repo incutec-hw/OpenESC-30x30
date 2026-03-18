@@ -39,3 +39,6 @@ replicate_layout.log
 # Claude config
 .claude/
 CLAUDE.md
+
+# Cost analysis (internal, not shipped)
+cost-analysis.md

@@ -2,7 +2,7 @@
 
 ![Front](images/front.png) ![Back](images/back.png)
 
-30x30mm mounting pattern variant of the [Open 4-in-1 AM32 ESC](https://github.com/Just4Stan/Open-4in1-AM32-ESC). Designed for higher current handling with more copper area and upgraded components. Runs [AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) firmware, works with Betaflight over DShot. Designed in KiCad 9.
+30x30mm mounting pattern variant of the [Open 4-in-1 AM32 ESC](https://github.com/Just4Stan/Open-4in1-AM32-ESC). Designed for higher current handling with more copper area and upgraded components. Runs [AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) firmware, works with Betaflight over DShot. Designed in KiCad.
 
 ## Specs
 
@@ -57,15 +57,9 @@ ESC.kicad_sch                Single ESC channel (used 4x)
 4in1ESC-30x30.pretty/        Custom footprints
 4in1ESC-30x30.3dshapes/      3D models (STEP files)
 components.kicad_sym          Custom symbols
+licensing/                    Branding and third-party notices
 ```
-
-## Status
-
-- [x] Import SP40N01GHNK symbol and footprint
-- [x] PCB layout (30x30mm, 6-layer)
-- [ ] Order from JLCPCB
-- [ ] Thermal analysis
 
 ## License
 
-Licensed under [CERN-OHL-S-2.0](https://ohwr.org/cern_ohl_s_v2.txt). You can use, modify, and sell this design, but any modifications must also be open-sourced under the same license.
+Licensed under [CERN-OHL-S-2.0](https://ohwr.org/cern_ohl_s_v2.txt). See [LICENSE](LICENSE) and [licensing/](licensing/) for branding and third-party notices.

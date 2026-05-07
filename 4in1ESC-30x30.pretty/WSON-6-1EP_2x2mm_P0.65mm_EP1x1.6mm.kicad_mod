@@ -306,7 +306,7 @@
 		(uuid "da3c669e-c9d3-4da1-af36-586a1f89a726")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step"
+	(model "${KIPRJMOD}/4in1ESC-30x30.3dshapes/WSON-6_L2.0-W2.0-H0.8-P0.65.step"
 		(offset
 			(xyz 0 0 0)
 		)

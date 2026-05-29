@@ -52,7 +52,7 @@ See the [20x20 variant ALTERNATIVES.md](https://github.com/Just4Stan/Open-4in1-A
 ## Project Structure
 
 ```
-4in1ESC-30x30.kicad_sch     Main schematic (power, sensing, connector)
+4in1.kicad_sch               Main schematic (power, sensing, connector)
 ESC.kicad_sch                Single ESC channel (used 4x)
 4in1ESC-30x30.pretty/        Custom footprints
 4in1ESC-30x30.3dshapes/      3D models (STEP files)

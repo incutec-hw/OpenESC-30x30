@@ -498,7 +498,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "4in1ESC-30x30.kicad_pro",
+    "filename": "4in1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -665,8 +665,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "4in1ESC-30x30.kicad_sch",
-        "name": "4in1ESC-30x30",
+        "filename": "4in1.kicad_sch",
+        "name": "4in1",
         "uuid": "612d09d9-c556-41af-8a15-92be360f8e81"
       }
     ],
@@ -676,7 +676,7 @@
   "sheets": [
     [
       "612d09d9-c556-41af-8a15-92be360f8e81",
-      "4in1ESC-30x30"
+      "4in1"
     ],
     [
       "f870c78f-43b6-4f66-afe4-21d85c4907b1",

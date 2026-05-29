@@ -283,7 +283,7 @@
 		(uuid "d33cbf06-24d5-485f-80d7-f7c085fb3230")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/4in1ESC.3dshapes/QFN-28_L4.0-W4.0-P0.40-TL-EP2.4.step"
+	(model "${KIPRJMOD}/4in1ESC-30x30.3dshapes/QFN-28_L4.0-W4.0-P0.40-TL-EP2.4.step"
 		(offset
 			(xyz 0 0 0)
 		)

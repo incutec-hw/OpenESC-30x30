@@ -15,6 +15,11 @@ design rationale annotated directly on the sheets — keep the two in sync.
 
 **Topology:** +BATT input, TVS clamp, buck + LDO power, board-level current sense, 8-pin connector.
 
+### Connector / telemetry
+- **No telemetry signal pin** — telemetry is handled by the **extended DShot
+  protocol** (bidirectional, over the motor signal lines). Connector pin 4 is
+  therefore intentionally unconnected.
+
 ### Input protection
 - 3× **SMBJ24A** TVS on +BATT. The SMBJ24A means there will be some leakage at a
   fully charged 6S pack (25.2 V), but voltage clamping is improved too — tradeoff

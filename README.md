@@ -2,7 +2,10 @@
 
 Open-source 4-in-1 BLDC ESC with a 30.5 × 30.5 mm mounting pattern, built around four independent AT32F421 motor controllers running AM32. Six-layer, DShot over the standard 8-pin connector. Designed in KiCad for JLCPCB assembly.
 
-![Front](images/front.png) ![Back](images/back.png)
+<p>
+<img src="images/front.png" width="400" alt="OpenESC-30x30 top" />
+<img src="images/back.png" width="400" alt="OpenESC-30x30 bottom" />
+</p>
 
 Part of the incutec OpenDrone line (`incutec-hw/OpenESC-30x30`).
 

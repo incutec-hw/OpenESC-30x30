@@ -8,11 +8,11 @@ Part of the incutec OpenDrone line (`incutec-hw/OpenESC-30x30`).
 
 > A smaller **[OpenESC_20X20](https://github.com/incutec-hw/OpenESC_20X20)** (20×20 mm) shares this design and mirrors this repo. The two differ only in board/mounting size and a few power-stage parts.
 >
-> 📖 This README is the canonical board reference. Per-sheet engineering rationale (mirrored from the on-canvas KiCad comments) is in [`DESIGN_NOTES.md`](DESIGN_NOTES.md). Build, flashing, and bring-up/testing notes belong in the project wiki.
+> 📖 This README is the canonical board reference. Per-sheet engineering rationale (mirrored from the on-canvas KiCad comments) is in [`hardware/DESIGN_NOTES.md`](hardware/DESIGN_NOTES.md). Build, flashing, and bring-up/testing notes belong in the project wiki.
 
 ## Architecture
 
-Four fully independent ESC channels share a common power input and telemetry connector. Each channel has its own MCU and gate driver; the high-current stage is six MOSFETs per channel (three half-bridges). This is the distributed-MCU AM32 4-in-1 topology rather than a single-MCU design. Values below are extracted from the KiCad design files (`4in1.kicad_sch`, `ESC.kicad_sch`, `4in1.kicad_pcb`) and the production BOM (`production/Rev1-30x30_bom.csv`).
+Four fully independent ESC channels share a common power input and telemetry connector. Each channel has its own MCU and gate driver; the high-current stage is six MOSFETs per channel (three half-bridges). This is the distributed-MCU AM32 4-in-1 topology rather than a single-MCU design. Values below are extracted from the KiCad design files (`hardware/4in1.kicad_sch`, `hardware/ESC.kicad_sch`, `hardware/4in1.kicad_pcb`) and the production BOM (`hardware/production/Rev1-30x30_bom.csv`).
 
 | Block | Part | LCSC | Per board |
 |---|---|---|---|
@@ -61,10 +61,10 @@ Connector ground returns on the shield/mounting pads P1/P2 (both GND). The same 
 
 | File | Description |
 |---|---|
-| `4in1.kicad_pro` / `.kicad_pcb` / `.kicad_sch` | Main design (30×30). |
-| `4in1-panel.kicad_pro` / `.kicad_pcb` | Panelized version for production fabrication. |
+| `hardware/4in1.kicad_pro` / `.kicad_pcb` / `.kicad_sch` | Main design (30×30). |
+| `hardware/4in1-panel.kicad_pro` / `.kicad_pcb` | Panelized version for production fabrication. |
 
-This repo is the 30×30 member of the OpenESC family; the 20×20 sibling lives in [`OpenESC_20X20`](https://github.com/incutec-hw/OpenESC_20X20). Production exports in `production/` are versioned `V0.1`–`V0.4` and `Rev1`. `Rev1-30x30` is the 30×30-only fabrication set; `Rev1-30x3020x20` is a combined shared-fab set produced alongside the mini.
+This repo is the 30×30 member of the OpenESC family; the 20×20 sibling lives in [`OpenESC_20X20`](https://github.com/incutec-hw/OpenESC_20X20). Production exports in `hardware/production/` are versioned `V0.1`–`V0.4` and `Rev1`. `Rev1-30x30` is the 30×30-only fabrication set; `Rev1-30x3020x20` is a combined shared-fab set produced alongside the mini.
 
 ## Firmware
 
@@ -73,26 +73,30 @@ This repo is the 30×30 member of the OpenESC family; the 20×20 sibling lives i
 ## Repository structure
 
 ```
-4in1.kicad_sch              Top schematic (power, current sense, connector)
-ESC.kicad_sch               Single ESC channel sheet (instantiated 4×)
-4in1.kicad_pcb              Main board layout (6-layer)
-4in1.kicad_pro              Main project
-4in1-panel.kicad_pcb        Panelized layout for production
-4in1-panel.kicad_pro        Panel project
-components.kicad_sym        Project-local symbol library
-4in1ESC-30x30.pretty/       Project-local footprints
-4in1ESC-30x30.3dshapes/     3D models (STEP)
-4in1.step / 4in1.glb        Exported board 3D models
-production/                 JLCPCB fabrication exports (gerbers, BOM, CPL) per revision
-licensing/                  Hardware license, third-party notices, trademark policy
-cost-analysis.md            JLCPCB 500-unit cost breakdown (note: predates latest BOM)
-database/                   Component analysis notes
-images/                     Render images
+README.md  LICENSE  CLAUDE.md            Repo root: docs + license + agent instructions
+images/                                  Board render images
+licensing/                               Hardware license, third-party notices, trademark policy
+hardware/                                KiCad 9 project (everything to build/fab the board)
+├── 4in1.kicad_sch                       Top schematic (power, current sense, connector)
+├── ESC.kicad_sch                        Single ESC channel sheet (instantiated 4×)
+├── 4in1.kicad_pcb                       Main board layout (6-layer)
+├── 4in1.kicad_pro                       Main project
+├── 4in1-panel.kicad_pcb / .kicad_pro    Panelized layout/project for production
+├── DESIGN_NOTES.md                      Per-sheet engineering rationale (mirrors canvas)
+├── components.kicad_sym                 Project-local symbol library
+├── 4in1ESC-30x30.pretty/                Project-local footprints
+├── 4in1ESC-30x30.3dshapes/             3D models (STEP)
+├── fp-lib-table / sym-lib-table         Project-local library tables (${KIPRJMOD})
+├── 4in1.step / 4in1.glb                 Exported board 3D models
+├── production/                          JLCPCB fabrication exports (gerbers, BOM, CPL) per revision
+├── fabrication-toolkit-options.json     KiCad Fabrication Toolkit settings
+├── cost-analysis.md                     JLCPCB 500-unit cost breakdown (predates latest BOM)
+└── database/                            Component analysis notes
 ```
 
 ## Manufacturing
 
-Targets JLCPCB PCBA. Each `production/<rev>.zip` contains gerbers; `_bom.csv`, `_designators.csv`, and `_positions.csv` are the assembly inputs. Latest single-board set: `production/Rev1-30x30.*`. Fabrication exports are generated with the KiCad Fabrication Toolkit (`fabrication-toolkit-options.json`).
+Targets JLCPCB PCBA. Each `hardware/production/<rev>.zip` contains gerbers; `_bom.csv`, `_designators.csv`, and `_positions.csv` are the assembly inputs. Latest single-board set: `hardware/production/Rev1-30x30.*`. Fabrication exports are generated with the KiCad Fabrication Toolkit (`hardware/fabrication-toolkit-options.json`).
 
 Note: in both the schematic symbol and the production BOM, the MOSFET's Value and LCSC fields are swapped (Value carries the LCSC code `C22385416`, the LCSC column carries the MPN `SP40N01GHNK`). The assembled part is **SP40N01GHNK / C22385416** (24×); the field swap is a metadata cleanup item, not a circuit change.
 

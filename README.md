@@ -10,8 +10,6 @@ Open-source 4-in-1 BLDC ESC with a 30.5 × 30.5 mm mounting pattern, built aroun
 Part of the incutec OpenDrone line (`incutec-hw/OpenESC-30x30`).
 
 > A smaller **[OpenESC_20X20](https://github.com/incutec-hw/OpenESC_20X20)** (20×20 mm) shares this design and mirrors this repo. The two differ only in board/mounting size and a few power-stage parts.
->
-> 📖 This README is the canonical board reference. Per-sheet engineering rationale (mirrored from the on-canvas KiCad comments) is in [`hardware/DESIGN_NOTES.md`](hardware/DESIGN_NOTES.md). Build, flashing, and bring-up/testing notes belong in the project wiki.
 
 ## Architecture
 
@@ -71,7 +69,7 @@ This repo is the 30×30 member of the OpenESC family; the 20×20 sibling lives i
 
 ## Firmware
 
-[AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) — incutec's default ESC firmware. Each channel's AT32F421G8U7 is flashed independently (SWD/SWC). The AT32F421 + NSG2065Q per-channel topology and the DShot signal nets are the standard AM32 4-in-1 hardware target. Works with Betaflight and other DShot-capable flight controllers.
+[AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) — incutec's default ESC firmware. Boards ship with the AM32 bootloader pre-loaded; firmware is flashed and configured in-browser at [am32.ca](https://am32.ca). Each channel's AT32F421G8U7 is an independent AM32 target. The AT32F421 + NSG2065Q per-channel topology and the DShot signal nets are the standard AM32 4-in-1 hardware target. Works with Betaflight and other DShot-capable flight controllers.
 
 ## Repository structure
 
@@ -85,7 +83,6 @@ hardware/                                KiCad 9 project (everything to build/fa
 ├── 4in1.kicad_pcb                       Main board layout (6-layer)
 ├── 4in1.kicad_pro                       Main project
 ├── 4in1-panel.kicad_pcb / .kicad_pro    Panelized layout/project for production
-├── DESIGN_NOTES.md                      Per-sheet engineering rationale (mirrors canvas)
 ├── components.kicad_sym                 Project-local symbol library
 ├── 4in1ESC-30x30.pretty/                Project-local footprints
 ├── 4in1ESC-30x30.3dshapes/             3D models (STEP)
@@ -96,12 +93,6 @@ hardware/                                KiCad 9 project (everything to build/fa
 ├── cost-analysis.md                     JLCPCB 500-unit cost breakdown (predates latest BOM)
 └── database/                            Component analysis notes
 ```
-
-## Manufacturing
-
-Targets JLCPCB PCBA. Each `hardware/production/<rev>.zip` contains gerbers; `_bom.csv`, `_designators.csv`, and `_positions.csv` are the assembly inputs. Latest single-board set: `hardware/production/Rev1-30x30.*`. Fabrication exports are generated with the KiCad Fabrication Toolkit (`hardware/fabrication-toolkit-options.json`).
-
-Note: in both the schematic symbol and the production BOM, the MOSFET's Value and LCSC fields are swapped (Value carries the LCSC code `C22385416`, the LCSC column carries the MPN `SP40N01GHNK`). The assembled part is **SP40N01GHNK / C22385416** (24×); the field swap is a metadata cleanup item, not a circuit change.
 
 ## License
 
